@@ -1,6 +1,6 @@
 :root {
 
-    --primary-color: #055a05;
+    --primary-color: #fff;
     --secondary-color: #f4a261;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
@@ -64,7 +64,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -75,7 +75,7 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 10px;
     left: 10px;
