@@ -102,7 +102,6 @@ article {
   height: 125px;
 } */
 
-/* ROOT VARIABLES */
 :root {
   --primary-color: #ffffff;
   --secondary-color: #264653; /* Using your accent1 for text/backgrounds */
@@ -131,25 +130,23 @@ footer {
   margin: 0 auto;
 }
 
-/* HEADER - CSS GRID */
 header {
   display: grid;
-  grid-template-columns: 150px 1fr; /* Logo takes 150px, Nav takes the rest */
+  grid-template-columns: 150px 1fr;
   align-items: center;
   background-color: var(--primary-color);
   padding: 10px;
 }
 
 header img {
-  width: 100px; /* Adjust based on your actual logo size */
+  width: 100px;
   justify-self: start;
 }
 
-/* NAVIGATION - CSS FLEX */
 nav ul {
   display: flex;
   list-style: none;
-  justify-content: space-around; /* Distributes links evenly */
+  justify-content: space-around;
   padding: 0;
 }
 
@@ -164,7 +161,6 @@ nav ul li a:hover {
   color: var(--accent-color);
 }
 
-/* HERO SECTION */
 .hero {
   position: relative;
   height: 400px;
@@ -204,7 +200,6 @@ nav ul li a:hover {
   margin-left: 15px;
 }
 
-/* HISTORY SECTION */
 .history {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -219,7 +214,6 @@ nav ul li a:hover {
   text-align: center;
 }
 
-/* ADVENTURES SECTION (Flexbox for 5 images) */
 .adventures {
   display: flex;
   justify-content: space-between;
@@ -243,7 +237,6 @@ nav ul li a:hover {
   margin-top: 5px;
 }
 
-/* FOOTER - CSS GRID/FLEX */
 footer {
   display: flex;
   justify-content: space-between;
