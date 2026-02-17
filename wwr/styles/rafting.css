@@ -360,3 +360,7 @@ th {
   font-weight: bold;
   text-decoration: none;
 }
+
+.trips-title {
+  margin-bottom: 20px;
+}
