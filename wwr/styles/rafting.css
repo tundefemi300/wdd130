@@ -116,9 +116,6 @@ nav ul li a:hover {
   margin: 20px 0;
   text-align: center;
 }
-.adventure-container {
-  display: flex;
-}
 
 .adventures figure {
   flex: 1;
@@ -151,17 +148,6 @@ footer {
 .socialmedia img {
   width: 30px;
   height: 30px;
-}
-
-/* --- ADVENTURE GALLERY FIX --- */
-/* This targets the images in your About Us page and the Contact Team section */
-figure img {
-  width: 100%; /* Ensures they fill their container */
-  max-width: 200px; /* Limits the size so they aren't "too big" */
-  height: 150px; /* Sets a uniform height */
-  object-fit: cover; /* Prevents stretching */
-  border-radius: 5px;
-  border: 1px solid var(--secondary-color);
 }
 
 .adventure-container {
