@@ -220,6 +220,9 @@ nav ul li a:hover {
   margin: 20px 0;
   text-align: center;
 }
+.adventure-container {
+  display: flex;
+}
 
 .adventures figure {
   flex: 1; /* Makes all 5 figures take equal width */
